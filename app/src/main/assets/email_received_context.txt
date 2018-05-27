@@ -1,0 +1,4 @@
+CREATE TABLE [emial_received_context](
+    [_id] INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+    [MessageID] VARCHAR(20),
+    [text] TEXT);

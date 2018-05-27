@@ -1,0 +1,17 @@
+CREATE TABLE [email_received_header](
+    [_id] INTEGER PRIMARY KEY ON CONFLICT IGNORE AUTOINCREMENT UNIQUE,
+    [Sender] VARCHAR(50, 0),
+    [RecipientUserID] VARCHAR(50, 0),
+    [SendToName] VARCHAR(50, 0),
+    [Subject] VARCHAR(100, 0),
+    [MessageID] VARCHAR(20, 0),
+    [ExternalMessageID] VARCHAR(20, 0),
+    [ReceiveDate] DATETIME(0, 0),
+    [Readed] INT(2, 0) DEFAULT 0,
+    [Flagged] INT(0, 0) DEFAULT 0,
+    [ItemID] VARCHAR(15, 0),
+    [reply] INT(2, 0) DEFAULT 0,
+    [autoreply] INT(2, 0) DEFAULT 0,
+    [shop_cr] VARCHAR(5, 0),
+    [MessageType] VARCHAR(100, 0),
+    [isreturn] INT(2, 0) DEFAULT 0);

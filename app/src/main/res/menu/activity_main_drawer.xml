@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_email_Y"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Y 店铺(15)" />
+        <item
+            android:id="@+id/nav_email_J"
+            android:icon="@drawable/ic_menu_send"
+            android:title="J 店铺(15)" />
+        <item
+            android:id="@+id/nav_email_F"
+            android:icon="@drawable/ic_menu_send"
+            android:title="F 店铺" />
+        <item
+        android:id="@+id/nav_email_C"
+        android:icon="@drawable/ic_menu_send"
+        android:title="C 店铺" />
+        <item
+            android:id="@+id/nav_email_Z"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Z 店铺" />
+        <item
+            android:id="@+id/nav_email_D"
+            android:icon="@drawable/ic_menu_send"
+            android:title="D 店铺" />
+        <item
+            android:id="@+id/nav_email_P"
+            android:icon="@drawable/ic_menu_send"
+            android:title="P 店铺" />
+        <item
+            android:id="@+id/nav_email_BX"
+            android:icon="@drawable/ic_menu_send"
+            android:title="BX 店铺" />
+        <item
+            android:id="@+id/nav_email_QD"
+            android:icon="@drawable/ic_menu_send"
+            android:title="QD 店铺" />
+    </group>
+
+    <item android:title="Case &#038; Return">
+        <menu>
+            <item
+                android:id="@+id/nav_return_today"
+                android:icon="@drawable/ic_menu_share"
+                android:title="今日Return" />
+            <item
+                android:id="@+id/nav_return_3day"
+                android:icon="@drawable/ic_menu_send"
+                android:title="三日内Return" />
+            <item
+                android:id="@+id/nav_return_all"
+                android:icon="@drawable/ic_menu_share"
+                android:title="所有Return" />
+            <item
+                android:id="@+id/nav_case_today"
+                android:icon="@drawable/ic_menu_send"
+                android:title="今日Case" />
+            <item
+                android:id="@+id/nav_case_3day"
+                android:icon="@drawable/ic_menu_share"
+                android:title="三日内Case" />
+            <item
+                android:id="@+id/nav_case_all"
+                android:icon="@drawable/ic_menu_send"
+                android:title="所有未关闭Case" />
+        </menu>
+    </item>
+
+    <item android:title="订单总览">
+        <menu>
+            <item
+                android:id="@+id/nav_order_today"
+                android:icon="@drawable/ic_menu_share"
+                android:title="今日新订单"/>/>
+            <item
+                android:id="@+id/nav_order_undeal"
+                android:icon="@drawable/ic_menu_send"
+                android:title="待确认订单" />
+            <item
+                android:id="@+id/nav_order_unsend"
+                android:icon="@drawable/ic_menu_share"
+                android:title="所有未发订单" />
+        </menu>
+    </item>
+</menu>
